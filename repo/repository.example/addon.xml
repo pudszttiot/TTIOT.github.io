@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="TTIOT" name="TTIOT.github.io" version="1.0" provider-name="pudszttiot">
-    <extension point="xbmc.addon.repository" name="Example Repository">
-        <dir>
-            <info compressed="false">https://raw.githubusercontent.com/pudszttiot/TTIOT.github.io/main/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/YOUR_USERNAME_HERE/REPOSITORY_NAME_HERE/DEFAULT_BRANCH_NAME_HERE/repo/zips/</datadir>
-        </dir>
+<addon
+  id="pudszTTIOT"
+  name="pudszTTIOT Repo"
+  version="0.0.1"
+  provider-name="pudszTTIOT">
+    <requires>
+        <import addon="xbmc.python" version="2.20.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary>REPO_NAME_HERE</summary>
-        <description>DESCRIPTION OF YOUR REPO HERE</description>
-        <disclaimer></disclaimer>
+        <summary lang="en">This is a test</summary>
+        <description lang="en">This is a test</description>
+        <disclaimer lang="en"></disclaimer>
+        <language>en</language>
         <platform>all</platform>
-        <assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
+        <license>MIT</license>
+        <forum></forum>
+        <website>https://pudszttiot.github.io/</website>
+        <email></email>
+        <source></source>
     </extension>
 </addon>
